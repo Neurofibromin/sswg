@@ -1,0 +1,52 @@
+https://docs.nextcloud.com/server/25/admin_manual/installation/source_installation.html#apache-web-server-configuration
+
+long term: solve everything with nix or docker
+
+
+#veracrypt
+docker
+#openvpn
+nextcloud
+roundcube
+mailserver: Postfix, Dovecot, openDKIM
+or on docker: Citadel
+#urbackup-server (docker available)
+owncloud
+
+
+
+aims:
+webserver with https for urbackup fastcgi
+mailserver + webclient
++ urbackup
+nextcloud/owncloud
++ samba share
+caldav server
++ tsl/ssl
+openvpn two setups: one without ipv4_forwarding (for local services only), the other complete with access to local subnet
+docker
+nix?
+hostapd wifi host (one with vpn, the other local)
+status check
++ encryption:
+  veracrypt container
+  full disk with cryptfs(luks)
+
+fail2ban
+iptables
+authelia
+
+https://www.storj.io/pricing
+https://www.urbackup.org/download.html
+https://kopia.io/
+https://duplicati.readthedocs.io/en/latest/02-installation/
+https://wiki.geant.org/pages/viewpage.action?pageId=121346324
+
+https://github.com/dani-garcia/vaultwarden
+https://ntfy.sh/
+https://github.com/benphelps/homepage
+https://containrrr.dev/watchtower/
+https://www.portainer.io/
+https://github.com/louislam/uptime-kuma
+https://github.com/decalage2/awesome-security-hardening
+https://github.com/imthenachoman/How-To-Secure-A-Linux-Server
