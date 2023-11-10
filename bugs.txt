@@ -1,0 +1,18 @@
+successfully
+global/local variables in functions
+implement other OS apart from ubuntu/debian
+
+
+openssl base64 < sound.m4a
+and then in the script:
+
+S=<<SOUND
+YOURBASE64GOESHERE
+SOUND
+
+echo $S | openssl base64 -d | play
+
+
+sed startup.sh no such file or directory (openvpn end)
+cryptsetup volumecreation asks for password in console
+veracrypt install console
